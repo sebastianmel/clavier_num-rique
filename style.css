@@ -1,4 +1,8 @@
 h1{text-align: center;}
+body{
+    background-color: yellowgreen;
+    
+}
 
 .keyboard {
     position: fixed;
@@ -13,9 +17,10 @@ h1{text-align: center;}
 }
 textarea{
     position: absolute; 
-    top: 130px; 
-    right: 30px; 
-    width: 90%;
+    top: 200px; 
+    height: 20%;
+    right: 30%; 
+    width: 40%;
 }
 
 
