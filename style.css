@@ -1,8 +1,63 @@
-h1{text-align: center;}
-body{
-    background-color: yellowgreen;
+h1,h6{
+    
+    text-align: center;
+    font-family: 'Goldman', cursive;
+    font-family: 'Lobster', cursive;    
+}
+
+
+hr{
+    width:300px;
     
 }
+
+body.light{
+    background: url(./lib/sun.jpg);
+    /* background-size: cover; */
+    
+    transition: 0.4s;
+}
+.btn-toggle{
+    font-family: 'Goldman', cursive;
+font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    outline: none;
+    background: #333;
+    color: #fff;
+    border: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+body.dark{
+    color: #ffff;
+    background: url(./lib/moon.png);
+    /* background-size: cover; */
+    transition: 0.4s;
+}
+body.dark .btn-toggle{
+    background: #f1f1f1;
+    background: #333;
+
+}
+
+body.dark .keyboard{
+    bacground:#200D3A;
+
+}
+body.dark .keyboard{
+    background:#2E2159
+
+}
+
+
 
 .keyboard {
     position: fixed;
@@ -74,8 +129,10 @@ textarea{
 
 .keyboard__key--active::after {
     background: #08ff00;
+    
 }
 
 .keyboard__key--dark {
     background: rgba(0, 0, 0, 0.25);
 }
+
