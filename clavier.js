@@ -51,7 +51,7 @@ const Keyboard = {
             "space"
         ];
 
-        // Creates HTML for an icon
+        //  icon
         const createIconHTML = (icon_name) => {
             return `<i class="material-icons">${icon_name}</i>`;
         };
@@ -60,7 +60,7 @@ const Keyboard = {
             const keyElement = document.createElement("button");
             const insertLineBreak = ["backspace", "p", "enter", "?"].indexOf(key) !== -1;
 
-            // Add attributes/classes
+            // classes
             keyElement.setAttribute("type", "button");
             keyElement.classList.add("keyboard__key");
 
