@@ -50,6 +50,17 @@ const Keyboard = {
              "m", "w", "x", "c", "v", "b", "n",",", ".","!", "?", 
             "space"
         ];
+        
+        //keys
+    _otherKeys() {
+        const fragment = document.createDocumentFragment();
+        const keyLayout = [
+            "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "backspace",
+            "q", "w", "e", "r", "t", "y", "u", "i", "o", "p",
+            "caps", "a", "s", "d", "f", "g", "h", "j", "k", "l", "enter",
+             "m", "z", "x", "c", "v", "b", "n",",", ".","!", "?", 
+            "space"
+        ];}
 
         //  icon
         const createIconHTML = (icon_name) => {
