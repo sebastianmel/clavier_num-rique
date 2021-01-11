@@ -76,6 +76,8 @@ textarea{
     height: 20%;
     right: 30%; 
     width: 40%;
+    max-width: 40%;
+    max-height: 150px;
 }
 
 
