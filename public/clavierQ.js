@@ -194,3 +194,5 @@ btnToggle.addEventListener('click',() => {
         btnToggle.innerHTML ="Go Light"
     }
 })
+
+// functionswitch js or no ?
